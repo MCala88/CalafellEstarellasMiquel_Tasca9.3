@@ -1,0 +1,40 @@
+{
+    "alumnes":
+    [
+        {
+            "dni": "36867720A",
+            "nombre": "Paco",
+            "apellido": "Gonzalez",
+            "edad": 65,
+            "lista de asignaturas": [{"Mates": 8}, {"Biologia": 6}]
+        },
+        {
+            "dni": "45397689E",
+            "nombre": "Ana",
+            "apellido": "Bohueles",
+            "edad": 14,
+            "lista de asignaturas": [{"Mates": 7}, {"Biologia": 7}, {"Castellano": 5}, {"Ingles": 8}, {"E.F.": 9}]
+        },
+        {
+            "dni": "45695378F",
+            "nombre": "Donald",
+            "apellido": "Trump",
+            "edad": 73,
+            "lista de asignaturas": [{"Mates": 7}, {"Economia": 10}, {"Castellano": 5}]
+        },
+        {
+            "dni": "51228248H",
+            "nombre": "Helen",
+            "apellido": "Chufe",
+            "edad": 33,
+            "lista de asignaturas": [{"Ingles": 5}, {"Biologia": 3}, {"Catalan": 4}]
+        },
+        {
+            "dni": "3971830M",
+            "nombre": "Lola",
+            "apellido": "Mento",
+            "edad": 40,
+            "lista de asignaturas": [{"Catalan": 8}, {"E.F.": 6}, {"Fisica": 9}]
+        }
+    ]
+}
