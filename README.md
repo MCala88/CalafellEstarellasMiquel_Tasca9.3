@@ -14,7 +14,7 @@ contingut del json de alumnes.
 > Si volem veure la llista desde un fitcher json podem utilitzar el seguent codig
 >
 >> menu.addItem( 
->>        'Mostrar la llista d’alumnes',
+        'Mostrar la llista d’alumnes',
         function num1() {const fs = require('fs');
         fs.readFile('./alumnes.json', 'utf8', (err, fileContents) => {
             if (err) {
@@ -31,10 +31,11 @@ contingut del json de alumnes.
 
 La opcio 2 en permet afegir un nou alumne, per fer-ho introduim la opcio 2 i en la mateixa linea introduim els altres camps tots aquests separats per un espai i entre comilles dobles si conté espais, en el camp de les asignatures asseguret de escriurer-lo igual que els altres i deixa-ho entre comilles dobles per el espais que conté.
 Ex: 2 45697555M Miquel Calafell 18 "[{'Catalan': 8}, {'E.F.': 6}, {'Fisica': 9}]"
-Si esta ben escrit et torrana la llista amb el nou alumne.
+Si esta ben escrit et torrana la llista amb el nou alumne. Si ara anam a la opcio 1 podrem veure que ens 
+mostra els canvis realitzats.
 
 
 La opcio 3 serveix per eliminar un alumne introduint el seu dni, nomes hem de introduir la opcio 4 i seguit de un espai el dni de l'alumne que volem eliminar. Ex: 3 45397689E.
-Després veurem la llista dels alumnes sense el que hem eliminat.
+Després veurem la llista dels alumnes sense el que hem eliminat. Si a continuacio executam la opcio 1 veurem que la llista d'alumnes esta actualitzat.
 
 La opcio 4 es per sortir del menú.
