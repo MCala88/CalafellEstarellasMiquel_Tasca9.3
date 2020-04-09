@@ -10,8 +10,8 @@
         },
         {
             "dni": "45397689E",
-            "nombre": "Ana",
-            "apellido": "Bohueles",
+            "nombre": "Benito",
+            "apellido": "Martinez",
             "edad": 14,
             "lista de asignaturas": [{"Mates": 7}, {"Biologia": 7}, {"Castellano": 5}, {"Ingles": 8}, {"E.F.": 9}]
         },
@@ -31,10 +31,11 @@
         },
         {
             "dni": "3971830M",
-            "nombre": "Lola",
-            "apellido": "Mento",
+            "nombre": "Alex",
+            "apellido": "Tintor",
             "edad": 40,
             "lista de asignaturas": [{"Catalan": 8}, {"E.F.": 6}, {"Fisica": 9}]
         }
     ]
 }
+
