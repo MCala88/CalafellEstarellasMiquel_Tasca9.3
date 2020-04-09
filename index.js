@@ -50,12 +50,11 @@ menu.addDelimiter('-', 40, 'Main Menu')
     .addItem(
         'Afegir un alumne',
         function num2(valor1, valor2, valor3, valor4, valor5) {
-          var alumnes_json = new Object();
-          alumnes_json.dni = valor1;
-          alumnes_json.nombre = valor2;
-          alumnes_json.apellido = valor3;
-          alumnes_json.edad = valor4;
-          alumnes_json.lista_de_asignaturas = valor5;
+          alumnes_json.alumnes.dni = valor1;
+          alumnes_json.alumnes.nombre = valor2;
+          alumnes_json.alumnes.apellido = valor3;
+          alumnes_json.alumnes.edad = valor4;
+          alumnes_json.alumnes.lista_de_asignaturas = valor5;
            
           var myString = JSON.stringify(alumnes_json);
             })
