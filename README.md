@@ -31,7 +31,7 @@ contingut del json de alumnes.
 
 La opcio 2 en permet afegir un nou alumne, per fer-ho introduim la opcio 2 i en la mateixa linea introduim els altres camps tots aquests separats per un espai i entre comilles dobles si conté espais, en el camp de les asignatures asseguret de escriurer-lo igual que els altres i deixa-ho entre comilles dobles per el espais que conté.
 Ex: 2 45697555M Miquel Calafell 18 "[{'Catalan': 8}, {'E.F.': 6}, {'Fisica': 9}]"
-Si esta ben escrit et torrana la llista amb el nou alumne. Si ara anam a la opcio 1 podrem veure que ens 
+Si esta ben escrit et tornara la llista amb el nou alumne. Si ara anam a la opcio 1 podrem veure que ens 
 mostra els canvis realitzats.
 
 
